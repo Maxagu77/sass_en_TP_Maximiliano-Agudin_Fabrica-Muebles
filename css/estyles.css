@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* vars */
+/* vars */
+body {
+  background-color: #e4c687 !important;
+}
+
+div.boton-inicio {
+  margin-top: 40px !important;
+}
+
+#header a.inicio {
+  margin: 40px;
+  font-family: 'Lobster', cursive;
+  text-decoration: none;
+  color: #6b4412;
+  border: 2px solid #6b4412;
+  padding: 10px;
+}
+
+#header a:hover {
+  background-color: #625c50;
+  color: blanchedalmond;
+}
+
+#header h1.titulo {
+  margin-top: 100px !important;
+  text-align: center;
+  font-family: 'Lobster', cursive !important;
+  color: #5c4715 !important;
+  font-size: 50px !important;
+}
+
+#header .header_logo {
+  border-style: double;
+  position: absolute;
+  margin-top: 8px !important;
+  margin-left: 10px !important;
+  width: 200px;
+  height: auto;
+}
+
+.animate__animated.animate__flipInX {
+  --animate-duration: 4s;
+}
+
+@media screen and (max-width: 900px) {
+  .header_logo {
+    display: none;
+  }
+}
+
+#nosotros {
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+  height: 80px;
+}
+
+.footer_realizado {
+  display: block;
+  text-align: center;
+  height: 20px;
+  color: white;
+}
+
+.footer_iconos {
+  margin-left: 47%;
+  width: 100px;
+  height: auto;
+}
+/*# sourceMappingURL=estyles.css.map */
